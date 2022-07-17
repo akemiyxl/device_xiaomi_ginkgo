@@ -58,7 +58,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
     persist.bluetooth.bqr.min_interval_ms=500
 
 # Camera
-$(call inherit-product, vendor/miuicamera/config.mk)
+$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor \
